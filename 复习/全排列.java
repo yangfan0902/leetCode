@@ -1,10 +1,10 @@
-package leetcode.¸´Ï°;
+package leetcode.Â¸Â´ÃÂ°;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
-public class È«ÅÅÁĞ {
+public class ÃˆÂ«Ã…Ã…ÃÃ {
 	public static void main(String[] args) {
 		int[] nums= {1,2,3,4};
 		List<List<Integer>> res=permute(nums);
@@ -34,6 +34,7 @@ public class È«ÅÅÁĞ {
 		
 	}
 	public static void swap(int[] arr,int l,int r) {
+		System.out.println("asd");
 		int t=arr[l];
 		arr[l]=arr[r];
 		arr[r]=t;
